@@ -1,3 +1,46 @@
+/*!*************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[3]!./app/ui/dashboard/navbar/navbar.module.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************/
+.navbar_container__wgx6E {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+	border-radius: 10px;
+	background-color: var(--bgSoft);
+}
+
+.navbar_title__fXyFf {
+	color: var(--textSoft);
+	font-weight: bold;
+	text-transform: capitalize;
+}
+
+.navbar_menu__I_JWq {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+
+.navbar_search___WH_U {
+	display: flex;
+	align-items: center;
+	background-color: #2e374a;
+	gap: 10px;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+.navbar_input__n6iGr {
+	background-color: #2e374a;
+	border: none;
+	color: var(--text);
+}
+
+.navbar_icons__powNM {
+	display: flex;
+	gap: 20px;
+}
 /*!*************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[3]!./app/ui/dashboard/sidebar/menuLink/menuLink.module.css ***!
   \*************************************************************************************************************************************************************************************************************************************************************************************************/
@@ -57,6 +100,24 @@
 	font-weight: bold;
 	font-size: 13px;
 	margin: 10px 0px;
+}
+
+.sidebar_logout__iruON {
+	padding: 20px;
+	margin: 5px 0px;
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	cursor: pointer;
+	border-radius: 10px;
+	background: none;
+	border: none;
+	width: 100%;
+	color: var(--text);
+}
+
+.sidebar_logout__iruON:hover {
+	background-color: #2e374a;
 }
 /*!*********************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[3]!./app/ui/dashboard/dashboard.module.css ***!
